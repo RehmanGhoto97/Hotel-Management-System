@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <!-- <link rel="stylesheet" href="./CSS/fontAwesome.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/bootstrap.css" />
+    <link rel="stylesheet" href="./CSS/animate.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <script src="./JS/bootstrap.js"></script>
+    <script src="./JS/sweetalert.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-light shadow-lg bg-blue-500">
+      <div class="container-fluid">
+        <div class="d-flex flex-wrap align-items-center">
+          <a class="navbar-brand" href="./index.html">
+            <img
+              class="rounded-circle"
+              src="./img/logo.jpg"
+              alt=""
+              width="50"
+              height="44"
+            />
+          </a>
+          <a class="text-light text-decoration-none" href="#"
+            >Hotel Management System</a
+          >
+        </div>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <h5 class="text-light pe-5">Ghoto</h5>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12 col-md-6 col-sm-12 col-lg-6">
+          <!-- nav tab -->
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a href="#signup" class="nav-link" data-bs-toggle="tab">
+                Signup</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#login" class="nav-link active" data-bs-toggle="tab">
+                Login</a
+              >
+            </li>
+          </ul>
+          <!-- nav pane -->
+          <div class="tab-content mt-1">
+            <div class="tab-pane container mt-3" id="signup">
+              <img src="./img/signup-2.webp" class="w-25" alt="" />
+              <form class="reg-form">
+                <input
+                  required
+                  name="fullName"
+                  type="text"
+                  class="form-control mb-3"
+                  placeholder="Full name"
+                  aria-label="Full name"
+                />
+                <input
+                  required
+                  name="hotelName"
+                  type="text"
+                  class="form-control mb-3"
+                  placeholder="Hotel name"
+                  aria-label="Hotel name"
+                />
+                <input
+                  required
+                  name="hotelRooms"
+                  type="number"
+                  class="form-control mb-3"
+                  placeholder="No. of Hotel's room"
+                  aria-label="No Hotel romm"
+                />
+                <input
+                  required
+                  name="mobile"
+                  type="number"
+                  class="form-control mb-3"
+                  placeholder="Mobile"
+                  aria-label="Mobile"
+                />
+                <input
+                  required
+                  name="email"
+                  type="email"
+                  class="form-control mb-3"
+                  id="exampleInputEmail1"
+                  aria-describedby="userName"
+                  placeholder="Email"
+                />
+                <input
+                  required
+                  name="password"
+                  type="password"
+                  class="form-control mb-3"
+                  id="exampleInputPassword1"
+                  placeholder="password"
+                />
+                <button type="submit" class="btn btn-primary w-100">
+                  Register
+                </button>
+              </form>
+            </div>
+            <div class="tab-pane active container mt-3" id="login">
+              <img src="./img/login.jpg" class="w-25" />
+              <form class="login-form">
+                <input
+                  required
+                  type="email"
+                  class="form-control mb-3"
+                  id="exampleInputEmail1"
+                  aria-describedby="userName"
+                  placeholder="Email"
+                />
+                <input
+                  required
+                  type="password"
+                  class="form-control mb-3"
+                  id="exampleInputPassword1"
+                  placeholder="password"
+                />
+                <button type="submit" class="btn btn-primary w-100">
+                  Login
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-sm-12 col-lg-6 mt-5 justify-content-center d-flex align-items-center"
+        >
+          <img class="w-100" src="./img/hotel-1.jpg" alt="" />
+        </div>
+      </div> 
+    </div>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>

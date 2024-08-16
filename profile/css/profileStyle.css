@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: linear-gradient(#060f12, #1699ed);
+}
+
+.action-btn {
+    background: linear-gradient(#306f88, #6bb8e9);
+
+    border: none !important;
+    font-size: 22px !important;
+    box-shadow: none !important;
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
+.btn-prmary-clr {
+    background-color: #092543;
+}
+
+.nav-tabs .nav-link.active {
+    background: linear-gradient(#306f88, #6bb8e9);
+    color: #fff !important;
+}
+
+.modal-content {
+    background: linear-gradient(#196077, #8995c1);
+}
+
+.InHouse-modal-C {
+    background: linear-gradient(#060f12, #1699ed);
+}
+
+/* .total-arch-modal-C {
+    background: linear-gradient(#196077, #8995c1);
+} */
+
+.swal {
+    background: linear-gradient(#060f12, #1699ed);
+}
+
+.text-color-archshowdata {
+    color: #000;
+}
